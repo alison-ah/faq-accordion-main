@@ -1,19 +1,21 @@
 :root {
     --white: hsl(0, 0%, 100%);
-    --light-pink: hsl(275, 100%, 97%);
-    --grayish-purple: hsl(292, 16%, 49%);
-    --dark-purple: hsl(292, 42%, 14%);
+    --body-background: hsl(275, 100%, 97%);
+    --light-font: hsl(292, 16%, 49%);
+    --dark-font: hsl(292, 42%, 14%);
+    --hover-text: #ad28eb;
 }
 
 html {
-    background-color: var(--light-pink);
     font-family: sans-serif;
 }
 
 body {
+    background: var(--body-background) url(assets/images/background-pattern-desktop.svg) center top / 100% 13.5rem no-repeat;
     padding: 0;
     margin: 0;
 }
+
 .content-wrapper {
     background-color: var(--white);
     justify-items: center;
@@ -39,23 +41,27 @@ p {
     padding: .5em;
     margin: 1.5em;
     margin-top: 0em;
-    color: var(--grayish-purple);
+    color: var(--light-font);
 }
 
 summary {
     display: flex;
-    /*background-color: var(--white);*/
     border: none;
     border-top: solid lightgray 1px;
     text-align: left;
     padding: 1.5em;
     cursor: pointer;
     font-weight: bold;
-    color: var(--dark-purple);
+    color: var(--dark-font);
     gap: .5em;
 }
 
-.first-item {
+details :hover {
+    color: var(--hover-text);
+    cursor: pointer;
+}
+
+.first-summary-item {
     border-top: none;
 }
 
@@ -78,10 +84,11 @@ summary img {
 
 .attribution { 
     font-size: .85em; 
-    text-align: center; 
+    text-align: center;
+    color: var(--dark-font); 
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--hover-text); 
 }
 
