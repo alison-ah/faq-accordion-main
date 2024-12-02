@@ -11,9 +11,9 @@ html {
 }
 
 body {
-    background: var(--body-background) url(assets/images/background-pattern-desktop.svg) center top / 100% 13.5rem no-repeat;
+    background: var(--body-background) url(/Users/alisonholland/Documents/coding/javascript/faq-accordion-main/assets/images/background-pattern-desktop.svg) center top / 400vw no-repeat;
     padding: 0;
-    margin: 0;
+    margin: 10em 0em;
 }
 
 .content-wrapper {
@@ -22,8 +22,8 @@ body {
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    margin: 5%;
-    padding: 3em;
+    margin: 5% 10%;
+    padding: 1em;
     box-shadow: 0 0 5px #9c9c9c;
 }
 
@@ -36,9 +36,16 @@ h1 {
     margin-bottom: .25em;
 }
 
+h2 {
+    display: flex;
+    font-size: 1.25em;
+    color: var(--dark-font);
+}
+
 p {
-    font: 1em;
-    padding: .5em;
+    font-size: 1em;
+    line-height: 1.75em;
+    padding: 0em;
     margin: 1.5em;
     margin-top: 0em;
     color: var(--light-font);
@@ -70,14 +77,6 @@ summary img {
     margin-left: auto;
 }
 
-.plus {
-
-}
-
-.minus {
-
-}
-
 .hide {
     display: none;
 }
@@ -92,3 +91,26 @@ summary img {
     color: var(--hover-text); 
 }
 
+@media (min-width: 480px) {
+    body {
+        background: var(--body-background) url(/Users/alisonholland/Documents/coding/javascript/faq-accordion-main/assets/images/background-pattern-desktop.svg) center top / 150vw no-repeat;
+        padding: 0;
+        margin: 10% 0 2% 0;
+    }
+
+    .content-wrapper {
+        margin: 5% 15%;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background: var(--body-background) url(/Users/alisonholland/Documents/coding/javascript/faq-accordion-main/assets/images/background-pattern-desktop.svg) center top / 150vw no-repeat;
+        padding: 0;
+        margin: 20% 0 2% 0;
+    }
+
+    .content-wrapper {
+        margin: 5% 25%;
+    }
+}
