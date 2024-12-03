@@ -75,7 +75,12 @@ p {
     color: var(--light-font);
 }
 
-.accordion :hover {
+button :hover {
+    color: var(--hover-text);
+    cursor: pointer;
+}
+
+.attribution :hover {
     color: var(--hover-text);
     cursor: pointer;
 }
