@@ -91,11 +91,11 @@ p {
 .attribution { 
     font-size: .85em; 
     text-align: center;
-    color: var(--dark-font); 
+    color: black; 
 }
 
 .attribution a { 
-    color: var(--hover-text); 
+    color: var(--dark-font); 
 }
 
 @media (min-width: 480px) {
