@@ -56,7 +56,7 @@ thirdAccordionItem.addEventListener("click", function () {
     thirdMinus.classList.add("hide");
     thirdPlus.classList.remove("hide");
     thirdAnswer.classList.add("hide");
-    secondAccordionItem.setAttribute("aria-expanded", false);
+    thirdAccordionItem.setAttribute("aria-expanded", false);
   }
 });
 
@@ -70,6 +70,6 @@ fourthAccordionItem.addEventListener("click", function () {
     fourthMinus.classList.add("hide");
     fourthPlus.classList.remove("hide");
     fourthAnswer.classList.add("hide");
-    secondAccordionItem.setAttribute("aria-expanded", false);
+    fourthAccordionItem.setAttribute("aria-expanded", false);
   }
 });
