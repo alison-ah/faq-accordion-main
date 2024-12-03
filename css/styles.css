@@ -7,7 +7,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: "Work Sans", sans-serif;
 }
 
 body {
@@ -29,10 +29,12 @@ body {
 
 h1 {
     display: flex;
+    font-family: "Work Sans";
+    font-weight: 600;
     font-size: 3em;
     align-items: center;
     gap: .5em;
-    margin-left: .5em;
+    margin-left: 1em;
     margin-bottom: .25em;
 }
 
@@ -49,20 +51,17 @@ button {
 
 h2 {
     display: flex;
+    font-family: "Work Sans", sans-serif;
+    justify-content: space-between;
     border: none;
     border-top: solid lightgray 1px;
     text-align: left;
-    padding: 1.5em;
+    padding: 1.5em 1em;
+    margin: 0em 1em;
     cursor: pointer;
     font-weight: bold;
     color: var(--dark-font);
-    gap: .5em;
-}
-
-h2 button img {
-    display: flex;
-    align-self: left;
-    margin-left: auto;
+    gap: 0.5em;
 }
 
 p {
@@ -70,7 +69,8 @@ p {
     line-height: 1.75em;
     text-align: left;
     padding: 0em;
-    margin: 3.5em;
+    padding-bottom: 1.5em;
+    margin: 0 3.3em;
     margin-top: 0em;
     color: var(--light-font);
 }
