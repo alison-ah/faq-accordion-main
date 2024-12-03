@@ -38,8 +38,19 @@ h1 {
 
 h2 {
     display: flex;
-    font-size: 1.25em;
+    border: none;
+    border-top: solid lightgray 1px;
+    text-align: left;
+    padding: 1.5em;
+    cursor: pointer;
+    font-weight: bold;
     color: var(--dark-font);
+    gap: .5em;
+}
+
+h2 img {
+    display: flex;
+    margin-left: auto;
 }
 
 p {
@@ -51,30 +62,13 @@ p {
     color: var(--light-font);
 }
 
-summary {
-    display: flex;
-    border: none;
-    border-top: solid lightgray 1px;
-    text-align: left;
-    padding: 1.5em;
-    cursor: pointer;
-    font-weight: bold;
-    color: var(--dark-font);
-    gap: .5em;
-}
-
-details :hover {
+.accordion :hover {
     color: var(--hover-text);
     cursor: pointer;
 }
 
 .first-summary-item {
     border-top: none;
-}
-
-summary img {
-    display: flex;
-    margin-left: auto;
 }
 
 .hide {
