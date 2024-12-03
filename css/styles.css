@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background: var(--body-background) url(/Users/alisonholland/Documents/coding/javascript/faq-accordion-main/assets/images/background-pattern-desktop.svg) center top / 350vw no-repeat;
+    background: var(--body-background) url(https://raw.githubusercontent.com/alison-ah/faq-accordion-main/48df75f5562d97a2a82ef83be45278f4c39ec25e/assets/images/background-pattern-mobile.svg) center top / 350vw no-repeat;
     padding: 0;
     margin: 40% 0 2% 0;
 }
@@ -93,8 +93,8 @@ summary img {
 
 @media (min-width: 480px) {
     body {
-        background: var(--body-background) url(/Users/alisonholland/Documents/coding/javascript/faq-accordion-main/assets/images/background-pattern-desktop.svg) center top / 200vw no-repeat;
-        margin: 25% 0 2% 0;
+        background: var(--body-background) url(https://raw.githubusercontent.com/alison-ah/faq-accordion-main/48df75f5562d97a2a82ef83be45278f4c39ec25e/assets/images/background-pattern-desktop.svg) center top / 200vw no-repeat;
+        margin: 20% 0 2% 0;
     }
 
     .content-wrapper {
@@ -104,8 +104,8 @@ summary img {
 
 @media (min-width: 1200px) {
     body {
-        background: var(--body-background) url(/Users/alisonholland/Documents/coding/javascript/faq-accordion-main/assets/images/background-pattern-desktop.svg) center top / 150vw no-repeat;
-        margin: 20% 0 2% 0;
+        background: var(--body-background) url(https://raw.githubusercontent.com/alison-ah/faq-accordion-main/48df75f5562d97a2a82ef83be45278f4c39ec25e/assets/images/background-pattern-desktop.svg) center top / 150vw no-repeat;
+        margin: 15% 0 2% 0;
     }
 
     .content-wrapper {
