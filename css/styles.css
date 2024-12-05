@@ -49,7 +49,7 @@ button {
     outline: inherit;
 }
 
-h2 {
+button .question {
     display: flex;
     font-family: "Work Sans", sans-serif;
     justify-content: space-between;
