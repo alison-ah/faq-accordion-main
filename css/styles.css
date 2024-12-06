@@ -44,8 +44,7 @@ button {
     color: inherit;
     border: none;
     cursor: pointer;
-
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.75em;
     text-align: left;
     padding: 0;
@@ -72,8 +71,10 @@ button .question {
 
 .answer {
     display: flex;
-    font-size: .8em;
+    font-size: 1em;
     font-family: "Work Sans", sans-serif;
+    color: var(--light-font);
+    text-align: left;
     line-height: 1.5em;
     padding-top: 2em;
 }
