@@ -43,36 +43,43 @@ button {
     width: 100%;
     color: inherit;
     border: none;
-    padding: 0;
-    font: inherit;
     cursor: pointer;
-    outline: inherit;
+
+    font-size: 1.1em;
+    line-height: 1.75em;
+    text-align: left;
+    padding: 0;
+    padding-right: 4em;
+    padding-bottom: 1.5em;
+    margin: 0 2em;
+    color: var(--light-font);
 }
 
 button .question {
     display: flex;
+    font-size: 1em;
     font-family: "Work Sans", sans-serif;
     justify-content: space-between;
     border: none;
     border-top: solid lightgray 1px;
     text-align: left;
-    padding: 1.5em 1em;
-    margin: 0em 1em;
+    padding-top: 1.5em;
     cursor: pointer;
     font-weight: bold;
     color: var(--dark-font);
     gap: 0.5em;
 }
 
-p {
-    font-size: 1em;
-    line-height: 1.75em;
-    text-align: left;
-    padding: 0em;
-    padding-bottom: 1.5em;
-    margin: 0 3.3em;
-    margin-top: 0em;
-    color: var(--light-font);
+.answer {
+    display: flex;
+    font-size: .8em;
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.5em;
+    padding-top: 2em;
+}
+
+.question.first-question {
+    border-top: none;
 }
 
 button :hover {
@@ -83,10 +90,6 @@ button :hover {
 .attribution :hover {
     color: var(--hover-text);
     cursor: pointer;
-}
-
-.first-question {
-    border-top: none;
 }
 
 .hide {
